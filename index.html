@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethiopia Rises Hotel</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CDN -->
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Nunito Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-sans bg-gray-50 text-gray-800">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="bg-black text-white">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-2xl font-bold">
+      Ethiopia<span class="text-amber-400">Rises</span>
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex space-x-8 font-medium">
+      <li><a href="index.html" class="hover:text-amber-400 transition">Home</a></li>
+      <li><a href="rooms.html" class="text-amber-400">Rooms</a></li>
+      <li><a href="restaurant.html" class="hover:text-amber-400 transition">Restaurant</a></li>
+      <li><a href="about.html" class="hover:text-amber-400 transition">About</a></li>
+      <li><a href="blog.html" class="hover:text-amber-400 transition">Blog</a></li>
+      <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Button -->
+    <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-black px-6 pb-4 space-y-3">
+    <a href="index.html" class="block">Home</a>
+    <a href="rooms.html" class="block text-amber-400">Rooms</a>
+    <a href="restaurant.html" class="block">Restaurant</a>
+    <a href="about.html" class="block">About</a>
+    <a href="blog.html" class="block">Blog</a>
+    <a href="contact.html" class="block">Contact</a>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="relative h-[600px] flex items-center justify-center text-center text-white bg-cover bg-center"
+  style="background-image:url('images/bg_1.jpg')">
+
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <div class="relative z-10 max-w-3xl px-4">
+    <h2 class="text-xl mb-2">More Than Hospitality | ከእንግዳነት በላይ</h2>
+    <h1 class="text-4xl md:text-6xl font-bold">Family-Friendly Hotel ለቤተሰብ ተስማሚ ሆቴል</h1>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+
+    <p class="text-green-500 font-semibold">Welcome to Ethiopia Rises Hotel</p>
+    <h2 class="text-4xl font-bold mb-12">Elegant Hospitality Style-ሁልጊዜ መቆየት የምትፈልጉበት ቦታ</h2>
+
+    <div class="grid md:grid-cols-5 gap-6">
+
+      <div class="p-6 shadow rounded-lg hover:shadow-xl transition">
+        <div class="text-4xl mb-4">🛎️</div>
+        <h3 class="font-semibold">Warm Hospitality</h3>
+      </div>
+
+      <div class="p-6 shadow rounded-lg bg-green-50">
+        <div class="text-4xl mb-4">🍽️</div>
+        <h3 class="font-semibold">Complimentary Breakfast</h3>
+      </div>
+
+      <div class="p-6 shadow rounded-lg hover:shadow-xl transition">
+        <div class="text-4xl mb-4">🚗</div>
+        <h3 class="font-semibold">Guest Transportation</h3>
+      </div>
+
+      <div class="p-6 shadow rounded-lg hover:shadow-xl transition">
+        <div class="text-4xl mb-4">💆</div>
+        <h3 class="font-semibold">Wellness & Luxury Suites</h3>
+      </div>
+
+      <div class="p-6 shadow rounded-lg hover:shadow-xl transition">
+        <div class="text-4xl mb-4">🛏️</div>
+        <h3 class="font-semibold">Comfortable Rooms</h3>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="py-20 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- Images -->
+    <div class="grid grid-cols-2 gap-4">
+      <img src="images/about-1.jpg" class="rounded-lg shadow h-48 w-full object-cover">
+      <img src="images/about-2.jpg" class="rounded-lg shadow h-48 w-full object-cover">
+      <img src="images/about-3.jpg" class="rounded-lg shadow h-48 w-full object-cover">
+      <img src="images/about-4.jpg" class="rounded-lg shadow h-48 w-full object-cover">
+    </div>
+
+    <!-- Text -->
+    <div>
+      <p class="text-green-500 font-semibold mb-2">About Ethiopia Rises Hotel</p>
+
+      <h2 class="text-4xl font-bold mb-6">
+        The Most Recommended Hotel in Gambella
+      </h2>
+
+      <p class="mb-4 text-gray-600">
+        Ethiopia Rises Hotel is where comfort, hospitality, and unforgettable experiences meet. 
+        Designed to create a peaceful and welcoming atmosphere, the hotel offers modern accommodation 
+        combined with genuine Ethiopian hospitality.
+      </p>
+
+      <p class="mb-6 text-gray-600">
+        Whether you are visiting for business, tourism, or relaxation, guests enjoy comfortable rooms, 
+        fresh breakfast, reliable transfer services, and friendly service that make every stay memorable.
+      </p>
+
+      <a href="rooms.html" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition">
+        Reserve Your Room
+      </a>
+    </div>
+
+  </div>
+</section>
+<!-- ================= ROOMS ================= -->
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <p class="text-green-500 font-semibold">Ethiopia Rises Rooms</p>
+    <h2 class="text-4xl font-bold mb-12">Hotel Luxury Rooms-የቅንጦት ክፍሎች</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="shadow rounded overflow-hidden">
+        <img src="images/room-1.jpg" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <p class="text-green-500 font-semibold">$120 / night</p>
+          <h3 class="text-xl font-bold mb-3">King Room</h3>
+          <a href="rooms-single.html" class="text-green-500 hover:underline">View Details →</a>
+        </div>
+      </div>
+
+      <div class="shadow rounded overflow-hidden">
+        <img src="images/room-2.jpg" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <p class="text-green-500 font-semibold">$150 / night</p>
+          <h3 class="text-xl font-bold mb-3">Family Room</h3>
+          <a href="rooms-single.html" class="text-green-500 hover:underline">View Details →</a>
+        </div>
+      </div>
+
+      <div class="shadow rounded overflow-hidden">
+        <img src="images/room-3.jpg" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <p class="text-green-500 font-semibold">$180 / night</p>
+          <h3 class="text-xl font-bold mb-3">Luxury Room</h3>
+          <a href="rooms-single.html" class="text-green-500 hover:underline">View Details →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESTAURANT ================= -->
+<section class="py-20 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <p class="text-green-500 font-semibold">Restaurant</p>
+    <h2 class="text-4xl font-bold mb-12">Our Special Menu</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="shadow rounded overflow-hidden">
+        <img src="images/menu-1.jpg" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold">Doro Wet-ዶሮ ወጥ</h3>
+          <p class="text-green-500">$20.00</p>
+        </div>
+      </div>
+
+      <div class="shadow rounded overflow-hidden">
+        <img src="images/menu-2.jpg" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold">Sausage and Vegetables-ሶሴጅ</h3>
+          <p class="text-green-500">$25.00</p>
+        </div>
+      </div>
+
+      <div class="shadow rounded overflow-hidden">
+        <img src="images/menu-3.jpg" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold">Kitfo-ክትፎ</h3>
+          <p class="text-green-500">$30.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BLOG ================= -->
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <p class="text-green-500 font-semibold">Read Blog</p>
+    <h2 class="text-4xl font-bold mb-12">Recent Blog</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Blog Item 1 -->
+      <div>
+        <img src="images/image_1.jpg" class="rounded shadow mb-4 h-64 w-full object-cover">
+        <h3 class="font-semibold hover:text-green-500 cursor-pointer">
+          The Limits of Control – የቁጥጥር ገደቦች
+        </h3>
+      </div>
+
+      <!-- Blog Item 2 -->
+      <div>
+        <img src="images/image_2.jpg" class="rounded shadow mb-4 h-64 w-full object-cover">
+        <h3 class="font-semibold hover:text-green-500 cursor-pointer">
+          Discover the beauty of Ethiopia Rises
+        </h3>
+      </div>
+
+      <!-- Blog Item 3 -->
+      <div>
+        <img src="images/image_3.jpg" class="rounded shadow mb-4 h-64 w-full object-cover">
+        <h3 class="font-semibold hover:text-green-500 cursor-pointer">
+          Why our guests keep coming back
+        </h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="relative bg-gray-900 text-gray-300 py-16">
+  <div class="absolute inset-0 bg-cover bg-center opacity-20"
+    style="background-image:url('images/bg_4.jpg')"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-10">
+
+    <div>
+      <h3 class="text-white text-xl font-bold mb-4">Ethiopia Rises</h3>
+      <p>Comfort in Tranquility-በጸጥታ ውስጥ ምቹነት</p>
+    </div>
+
+    <div>
+      <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+      <ul class="space-y-2">
+        <li><a href="blog-single.html" class="hover:text-white">Blog</a></li>
+        <li><a href="rooms.html" class="hover:text-white">Rooms</a></li>
+        <li><a href="index.html" class="hover:text-white">Amenities</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="text-white font-semibold mb-4">Data Protection</h4>
+      <ul class="space-y-2">
+        <li><a href="about.html" class="hover:text-white">About Us</a></li>
+        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="text-white font-semibold mb-4">Contact</h4>
+      <p>Openo Gambella, Ethiopia</p>
+      <p>+251 901 111 284</p>
+      <p>h.hailumst@gmail.com</p>
+    </div>
+
+  </div>
+
+  <div class="text-center text-sm text-gray-400 mt-12 relative">
+  © <span class="current-year"></span> Ethiopia Rises
+  </div>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
