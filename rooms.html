@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ethiopia Rises| Rooms</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CDN -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Nunito Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-sans bg-gray-50 text-gray-800">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="bg-black text-white">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-2xl font-bold">
+      Ethiopia<span class="text-amber-400">Rises</span>
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex space-x-8 font-medium">
+      <li><a href="index.html" class="hover:text-amber-400 transition">Home</a></li>
+      <li><a href="rooms.html" class="text-amber-400">Rooms</a></li>
+      <li><a href="restaurant.html" class="hover:text-amber-400 transition">Restaurant</a></li>
+      <li><a href="about.html" class="hover:text-amber-400 transition">About</a></li>
+      <li><a href="blog.html" class="hover:text-amber-400 transition">Blog</a></li>
+      <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Button -->
+    <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-black px-6 pb-4 space-y-3">
+    <a href="index.html" class="block">Home</a>
+    <a href="rooms.html" class="block text-amber-400">Rooms</a>
+    <a href="restaurant.html" class="block">Restaurant</a>
+    <a href="about.html" class="block">About</a>
+    <a href="blog.html" class="block">Blog</a>
+    <a href="contact.html" class="block">Contact</a>
+  </div>
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="relative h-[60vh] bg-cover bg-center flex items-center justify-center"
+  style="background-image: url('images/bg_3.jpg');">
+
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <div class="relative text-center text-white">
+    <p class="text-sm uppercase tracking-widest mb-2">
+      <a href="index.html" class="hover:text-amber-400">Home</a> / Rooms
+    </p>
+    <h1 class="text-4xl md:text-5xl font-bold">Our Rooms</h1>
+  </div>
+</section>
+
+<!-- ================= ROOMS SECTION ================= -->
+<section class="py-16">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="text-center mb-12">
+      <span class="text-amber-500 uppercase tracking-widest text-sm">Ethiopia Rises- Rooms</span>
+      <h2 class="text-3xl md:text-4xl font-bold mt-2">Hotel Master's Rooms</h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <!-- Room Card -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="images/room-6.jpg" class="w-full h-72 object-cover">
+        <div class="p-6 text-center">
+          <div class="text-amber-400 text-lg mb-2">★★★★★</div>
+          <p class="text-gray-500 mb-2">
+            <span class="text-xl font-bold text-gray-800">$120</span> / night
+          </p>
+          <h3 class="text-xl font-semibold mb-4">King Room</h3>
+          <a href="rooms-single.html"
+            class="inline-block bg-amber-500 text-white px-6 py-2 rounded-lg hover:bg-amber-600 transition">
+            View Details →
+          </a>
+        </div>
+      </div>
+
+      <!-- Repeat Room -->
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="images/room-1.jpg" class="w-full h-72 object-cover">
+        <div class="p-6 text-center">
+          <div class="text-amber-400 text-lg mb-2">★★★★★</div>
+          <p class="text-gray-500 mb-2">
+            <span class="text-xl font-bold text-gray-800">$120</span> / night
+          </p>
+          <h3 class="text-xl font-semibold mb-4">Suite Room</h3>
+          <a href="rooms-single.html"
+            class="inline-block bg-amber-500 text-white px-6 py-2 rounded-lg hover:bg-amber-600 transition">
+            View Details →
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="images/room-2.jpg" class="w-full h-72 object-cover">
+        <div class="p-6 text-center">
+          <div class="text-amber-400 text-lg mb-2">★★★★★</div>
+          <p class="text-gray-500 mb-2">
+            <span class="text-xl font-bold text-gray-800">$120</span> / night
+          </p>
+          <h3 class="text-xl font-semibold mb-4">Family Room</h3>
+          <a href="rooms-single.html"
+            class="inline-block bg-amber-500 text-white px-6 py-2 rounded-lg hover:bg-amber-600 transition">
+            View Details →
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+        <img src="images/room-3.jpg" class="w-full h-72 object-cover">
+        <div class="p-6 text-center">
+          <div class="text-amber-400 text-lg mb-2">★★★★★</div>
+          <p class="text-gray-500 mb-2">
+            <span class="text-xl font-bold text-gray-800">$120</span> / night
+          </p>
+          <h3 class="text-xl font-semibold mb-4">Deluxe Room</h3>
+          <a href="rooms-single.html"
+            class="inline-block bg-amber-500 text-white px-6 py-2 rounded-lg hover:bg-amber-600 transition">
+            View Details →
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="relative bg-cover bg-center text-white"
+  style="background-image: url('images/bg_4.jpg');">
+
+  <div class="absolute inset-0 bg-black/80"></div>
+
+  <div class="relative max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-4 gap-10">
+
+    <div>
+  <h3 class="text-xl font-bold mb-4">Ethiopia Rises</h3>
+
+  <p class="text-gray-300">
+    Comfort in Tranquility-በጸጥታ ውስጥ ምቹነት.
+  </p>
+
+  <div class="flex space-x-4 mt-6">
+    <a href="#" class="hover:text-amber-400">Twitter</a>
+    <a href="#" class="hover:text-amber-400">Facebook</a>
+    <a href="#" class="hover:text-amber-400">Instagram</a>
+  </div>
+</div>
+
+    <div>
+      <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="blog.html" class="hover:text-amber-400">Blog</a></li>
+        <li><a href="rooms.html" class="hover:text-amber-400">Rooms</a></li>
+        <li><a href="index.html" class="hover:text-amber-400">Amenities</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-lg font-semibold mb-4">Privacy</h3>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="about.html" class="hover:text-amber-400">About Us</a></li>
+        <li><a href="contact.html" class="hover:text-amber-400">Contact</a></li>
+        <li><a href="index.html" class="hover:text-white">Services</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+      <p class="text-gray-300">Openo Gambella, Ethiopia</p>
+      <p class="text-gray-300">+251 901 111 284</p>
+      <p class="text-gray-300">h.hailumst@gmail.com</p>
+    </div>
+  </div>
+
+  <div class="text-center text-sm text-gray-400 mt-12 pb-8 relative">
+  © <span class="current-year"></span> Ethiopia Rises All Rights Reserved
+</div>>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
