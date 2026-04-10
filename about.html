@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Ethiopia Rises</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+    
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700&display=swap" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Nunito Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="bg-black text-white">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-2xl font-bold">
+      Ethiopia<span class="text-amber-400">Rises</span>
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex space-x-8 font-medium">
+      <li><a href="index.html" class="hover:text-amber-400 transition">Home</a></li>
+      <li><a href="rooms.html" class="text-amber-400">Rooms</a></li>
+      <li><a href="restaurant.html" class="hover:text-amber-400 transition">Restaurant</a></li>
+      <li><a href="about.html" class="hover:text-amber-400 transition">About</a></li>
+      <li><a href="blog.html" class="hover:text-amber-400 transition">Blog</a></li>
+      <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Button -->
+    <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-black px-6 pb-4 space-y-3">
+    <a href="index.html" class="block">Home</a>
+    <a href="rooms.html" class="block text-amber-400">Rooms</a>
+    <a href="restaurant.html" class="block">Restaurant</a>
+    <a href="about.html" class="block">About</a>
+    <a href="blog.html" class="block">Blog</a>
+    <a href="contact.html" class="block">Contact</a>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="relative h-64 bg-cover bg-center" style="background-image: url('images/bg_3.jpg');">
+  <div class="absolute inset-0 bg-black/60 flex flex-col justify-center items-center text-center px-4">
+    <p class="text-sm text-gray-300 mb-2">
+      <a href="index.html" class="hover:text-green-400">Home</a> / About Us
+    </p>
+    <h1 class="text-3xl md:text-4xl font-bold text-white">About Ethiopia Rises Hotel</h1>
+  </div>
+</section>
+
+<!-- ================= WELCOME SECTION ================= -->
+<section class="py-16">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <span class="text-green-400 font-semibold">Welcome to Ethiopia Rises Hotel</span>
+    <h2 class="text-3xl md:text-4xl font-bold mt-2">Hard to Leave, Easy to Love</h2>
+  </div>
+
+  <!-- Services -->
+  <div class="mt-12 max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 px-4">
+    <div class="bg-white shadow rounded-lg p-6 text-center">
+      <div class="text-green-400 text-4xl mb-4">
+        <span class="flaticon-reception-bell"></span>
+      </div>
+      <h3 class="font-semibold">Genuine Hospitality</h3>
+    </div>
+    <div class="bg-white shadow rounded-lg p-6 text-center">
+      <div class="text-green-400 text-4xl mb-4">
+        <span class="flaticon-serving-dish"></span>
+      </div>
+      <h3 class="font-semibold">Start Your Day Right</h3>
+    </div>
+    <div class="bg-white shadow rounded-lg p-6 text-center">
+      <div class="text-green-400 text-4xl mb-4">
+        <span class="flaticon-car"></span>
+      </div>
+      <h3 class="font-semibold">Shuttle Service</h3>
+    </div>
+    <div class="bg-white shadow rounded-lg p-6 text-center">
+      <div class="text-green-400 text-4xl mb-4">
+        <span class="flaticon-spa"></span>
+      </div>
+      <h3 class="font-semibold">Tranquility Suites</h3>
+    </div>
+    <div class="bg-white shadow rounded-lg p-6 text-center">
+      <div class="text-green-400 text-4xl mb-4">
+        <span class="ion-ios-bed"></span>
+      </div>
+      <h3 class="font-semibold">Comfortable Rooms</h3>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT IMAGES ================= -->
+<section class="py-16 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+    <div class="grid grid-cols-2 gap-4">
+      <div class="h-64 bg-cover bg-center rounded-lg" style="background-image: url('images/about-1.jpg');"></div>
+      <div class="h-64 bg-cover bg-center rounded-lg" style="background-image: url('images/about-2.jpg');"></div>
+    </div>
+    <div>
+      <h2 class="text-3xl font-bold mb-4">Ethiopia Rises Hotel the Most Recommended Hotel All Over Gambella</h2>
+      <p class="mb-4">
+        a tributary of the Grand Renaissance Dam, our hotel offers the perfect blend of comfort and nature. 
+          Enjoy breathtaking river views, lush surroundings, and elegantly designed accommodations that promise relaxation and tranquility. 
+          Whether you're seeking a peaceful getaway or an adventure in Ethiopia’s stunning landscapes, 
+          our hotel provides an unforgettable stay with modern amenities and warm hospitality.
+      </p>
+      <a href="#" class="inline-block bg-green-400 hover:bg-green-500 text-white px-6 py-3 rounded-lg font-semibold">Reserve Your Room Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONY ================= -->
+<section class="py-16">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <div class="h-96 bg-cover bg-center rounded-lg" style="background-image: url('images/testimony-img.jpg');"></div>
+    <div>
+      <h3 class="text-green-400 font-semibold">Testimony</h3>
+      <h2 class="text-3xl font-bold mb-6">Happy Customer</h2>
+
+      <div class="space-y-6">
+        <div class="bg-white shadow rounded-lg p-6">
+          <p class="mb-4">
+            a tributary of the Grand Renaissance Dam, our hotel offers the perfect blend of comfort and nature. 
+          Enjoy breathtaking river views, lush surroundings, and elegantly designed accommodations that promise relaxation and tranquility. 
+          Whether you're seeking a peaceful getaway or an adventure in Ethiopia’s stunning landscapes, 
+          our hotel provides an unforgettable stay with modern amenities and warm hospitality.
+          </p>
+          <div class="flex items-center">
+            <div class="h-12 w-12 bg-cover bg-center rounded-full" style="background-image: url('images/person_1.jpg');"></div>
+            <div class="ml-4">
+              <p class="font-semibold">tirngo Mohammed</p>
+              <p class="text-sm text-gray-500">Businesswman</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white shadow rounded-lg p-6">
+          <p class="mb-4">
+            a tributary of the Grand Renaissance Dam, our hotel offers the perfect blend of comfort and nature. 
+          Enjoy breathtaking river views, lush surroundings, and elegantly designed accommodations that promise relaxation and tranquility. 
+          Whether you're seeking a peaceful getaway or an adventure in Ethiopia’s stunning landscapes, 
+          our hotel provides an unforgettable stay with modern amenities and warm hospitality.            
+          </p>
+          <div class="flex items-center">
+            <div class="h-12 w-12 bg-cover bg-center rounded-full" style="background-image: url('images/person_2.jpg');"></div>
+            <div class="ml-4">
+              <p class="font-semibold">Meaza Yasmin</p>
+              <p class="text-sm text-gray-500">Businessman</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="relative bg-gray-900 text-gray-300">
+  <div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('images/bg_4.jpg');"></div>
+  <div class="relative z-10 max-w-7xl mx-auto px-4 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="text-white text-xl font-bold mb-4">Ethiopia Rises</h3>
+        <p class="text-sm">Nestled on the scenic banks of the Baro River, 
+          a tributary of the Grand Renaissance Dam, our hotel offers the perfect blend of comfort and nature. 
+    
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="blog.html" class="hover:text-white">Blog</a></li>
+          <li><a href="rooms.html" class="hover:text-white">Rooms</a></li>
+          <li><a href="index.html" class="hover:text-white">Amenities</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Privacy</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="about.html" class="hover:text-white">About Us</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact Us</a></li>
+          <li><a href="index.html" class="hover:text-white">Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold mb-4">Contact Us</h4>
+        <p class="text-sm mb-2">Gambella, Ethiopia</p>
+        <p class="text-sm mb-2">+251 901 111 284</p>
+        <p class="text-sm">h.hailumst@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="flex space-x-4 mt-6">
+        <a href="#" class="hover:text-white">Twitter</a>
+        <a href="#" class="hover:text-white">Facebook</a>
+        <a href="#" class="hover:text-white">Instagram</a>
+      </div>
+    <div class="text-center text-sm text-gray-400 mt-12 relative">
+  © <span class="current-year"></span> Ethiopia Rises All Rights Reserved
+</div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
