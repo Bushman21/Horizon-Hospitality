@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ethiopia/Baro Bliss Hotel | Ethiopia Rises</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700&display=swap" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Nunito Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="bg-gray-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-2xl font-bold">
+      Ethiopia<span class="text-green-400">Rises</span>
+    </a>
+
+    <ul class="hidden md:flex space-x-8 font-medium">
+      <li><a href="index.html" class="hover:text-amber-400 transition">Home</a></li>
+      <li><a href="rooms.html" class="text-amber-400">Rooms</a></li>
+      <li><a href="restaurant.html" class="hover:text-amber-400 transition">Restaurant</a></li>
+      <li><a href="about.html" class="hover:text-amber-400 transition">About</a></li>
+      <li><a href="blog.html" class="hover:text-amber-400 transition">Blog</a></li>
+      <li><a href="contact.html" class="hover:text-amber-400 transition">Contact</a></li>
+    </ul>
+
+    <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-black px-6 pb-4 space-y-3">
+    <a href="index.html" class="block">Home</a>
+    <a href="rooms.html" class="block text-amber-400">Rooms</a>
+    <a href="restaurant.html" class="block">Restaurant</a>
+    <a href="about.html" class="block">About</a>
+    <a href="blog.html" class="block">Blog</a>
+    <a href="contact.html" class="block">Contact</a>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="relative h-48 bg-cover bg-center"
+  style="background-image: url('images/bg_3.jpg');">
+  <div class="absolute inset-0 bg-black/60"></div>
+</section>
+
+<!-- ================= BLOG CONTENT ================= -->
+<section class="py-16">
+  <div class="max-w-4xl mx-auto px-4">
+
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="blog.html" class="hover:text-green-500">Blog</a>
+      <span class="mx-2">/</span>
+      <span class="text-gray-700">Ethiopia Rises Hotel</span>
+    </nav>
+
+    <!-- Title -->
+    <h1 class="text-3xl md:text-4xl font-bold mb-6">
+      Ethiopia Rises Hotel
+    </h1>
+
+    <!-- Featured Image -->
+    <img src="images/image_1.jpg" alt="Hotel image"
+      class="w-full rounded-lg shadow mb-8">
+
+    <!-- Article Content -->
+    <div class="prose prose-gray max-w-none text-justify leading-relaxed">
+
+      <h2 class="text-3xl font-bold text-blue-600 mb-4">
+        Welcome to Ethiopia Rises Hotel 🌿🏞️
+      </h2>
+
+      <p>
+        Discover a serene escape along the Baro River, a picturesque tributary of the Grand Renaissance Dam, 
+        at Baro Bliss Hotel. Our hotel combines modern comfort with Ethiopia’s breathtaking natural beauty, 
+        offering elegantly designed rooms, warm hospitality, and panoramic views of lush riverbanks.
+      </p>
+
+      <p>
+        Whether you’re seeking a peaceful retreat, an adventure in Ethiopia’s landscapes, or a perfect spot 
+        for relaxation and reflection, Baro Bliss Hotel promises an unforgettable stay. Enjoy riverside dining, 
+        scenic walking trails, and thoughtful amenities that make every moment memorable.
+      </p>
+
+      <p>
+        Experience the harmony of nature and luxury — where your comfort meets Ethiopia’s stunning vistas.
+      </p>
+
+      <h2 class="mt-10 text-2xl font-semibold">
+        Experience Comfort at Ethiopia Rises Hotel
+      </h2>
+
+      <p>
+        Step into a place of elegance and convenience at Ethiopia Rises Hotel, where modern amenities meet warm Ethiopian hospitality.
+        Located in a prime spot, the hotel offers beautifully appointed rooms, gourmet dining, and easy access to local attractions.
+      </p>
+
+      <img src="images/image_2.jpg" alt="Room image"
+        class="w-full rounded-lg shadow my-8">
+
+      <p>
+        Perfect for both business travelers and leisure seekers, your stay here promises relaxation, comfort, 
+        and a touch of Ethiopian charm.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="relative bg-gray-900 text-gray-300">
+  <div class="absolute inset-0 bg-cover bg-center opacity-20"
+    style="background-image: url('images/bg_4.jpg');"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-4 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+      <div>
+        <h3 class="text-white text-xl font-bold mb-4">Ethiopia Rises</h3>
+        <p class="text-sm">
+          Comfort in Tranquility - በጸጥታ ውስጥ ምቹነት.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="blog.html" class="hover:text-white">Blog</a></li>
+          <li><a href="rooms.html" class="hover:text-white">Rooms</a></li>
+          <li><a href="index.html" class="hover:text-white">Amenities</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-4">Privacy</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="about.html" class="hover:text-white">About Us</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+          <li><a href="index.html" class="hover:text-white">Services</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-4">Contact Us</h4>
+        <p class="text-sm mb-2">Gambella, Ethiopia</p>
+        <p class="text-sm mb-2">+251 901 111 284</p>
+        <p class="text-sm">h.hailumst@gmail.com</p>
+      </div>
+
+    </div>
+
+    <div class="flex space-x-4 mt-6">
+      <a href="#" class="hover:text-white">Twitter</a>
+      <a href="#" class="hover:text-white">Facebook</a>
+      <a href="#" class="hover:text-white">Instagram</a>
+    </div>
+
+    <div class="text-center text-sm text-gray-400 mt-12">
+      © <span class="current-year"></span> Ethiopia Rises All Rights Reserved
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
